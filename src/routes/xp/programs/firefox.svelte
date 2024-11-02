@@ -32,7 +32,7 @@
 <Window options={options} bind:this={window} on_click_close={destroy}>
     <div slot="content" class="absolute inset-0 flex flex-col">
         <!-- Iframe for the Firefox app -->
-        <iframe src="https://browser.lol/create" bind:this={iframe}
+        <iframe src="https://browserling.com/b/57ae2692" bind:this={iframe}
                 class="w-full h-full {window?.z_index == $zIndex ? 'pointer-events-auto' : 'pointer-events-none'}"
                 frameborder="0" allowfullscreen>
         </iframe>
